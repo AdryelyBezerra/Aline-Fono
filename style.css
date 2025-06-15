@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: right;
+}
+.navbar li {
+    margin: 0px;
+    display: inline-block;
+}
+.navbar a {
+  color: #8560c1;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.navbar a:hover {
+    transition: color 0.2s;
+    color: #bca7cc;
+}
+.hero { 
+  color: rgb(106, 73, 167);
+  text-align: right;
+}
+.hero img {
+  max-width: 100%;
+  height: auto;
+  width: 70%;
+  float: right;
+}
