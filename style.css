@@ -8,7 +8,6 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: 0.2s linear;
 }
 body, html {
@@ -72,7 +71,6 @@ body, html {
     width: fit-content;
     transition: background-color 0.3s ease;
 }
-
 .botoes a:hover {
     background-color: #3e1e58;
 }
