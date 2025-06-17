@@ -154,3 +154,14 @@ body, html {
         padding: 10px 20px;
     }
 }
+footer{
+    padding: 10px;
+    background-color: #d19fe9;
+    height: 3rem;
+}
+footer p{
+    color: #3e1e58;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
