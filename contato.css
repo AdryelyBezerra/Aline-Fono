@@ -1,3 +1,5 @@
+/* Estilos específicos para a página de contato */
+
 .contato-section {
     background-image: url("img/bonecaempe.png");
     background-size: cover;
@@ -212,6 +214,7 @@
     box-shadow: 0 8px 25px rgba(112, 63, 134, 0.4);
 }
 
+/* Responsividade */
 @media (max-width: 768px) {
     .contato-grid {
         grid-template-columns: 1fr;
