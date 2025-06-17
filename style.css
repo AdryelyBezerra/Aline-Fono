@@ -14,15 +14,37 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .inicio {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: auto;
     overflow: hidden;
+}
+.hero {
+    background-color: #d8d6d8;
+    width: 100%;
+    height: 200px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d8d6d8;
+    width: 100%;
+    height: 200px;
+}
+.hero h1 {
+    margin-left: 900px;
+    font-size: 3rem;
+    color: var(--main-color);
+    text-align: left;
+    display: none;
 }
 .hero img {
   display: block;
+<<<<<<< HEAD
     width: 100%;
     height: auto;
     object-fit: cover; 
@@ -36,7 +58,13 @@ body, html {
 .logotexto img {
     width: 400px; 
     height: auto;
+=======
+  width: auto;
+  height: 180px;
+  margin: 10px auto;
+>>>>>>> 0154379f9d93f5e293caa1db55ba7c9a4d62c630
 }
+
 .navegacao {
     background-image: url("img/bonecaempe.png");
     background-size: contain;
