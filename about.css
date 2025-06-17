@@ -1,24 +1,101 @@
-.highlight {
-  background-color: #b59ed7;
-  color: white;
-  padding: 20px;
-  position: relative;
-  overflow: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.rodape-decoracao {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 3px solid #a67cc0;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4b2b6c;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #8c5db5;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
   width: 100%;
-  height: 100%;
-  background-color: #b8cbd6;
-  clip-path: polygon(0 0, 100% 100%, 0% 100%);
-  z-index: 1;
 }
 
-/* Garante que o texto fique acima do triângulo azul */
-.highlight p {
-  position: relative;
-  z-index: 2;
+.texto {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.texto h1 {
+  font-size: 40px;
+  color: #4b2b6c;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.texto h1:hover {
+  transform: scale(1.05);
+}
+
+.texto p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  background: linear-gradient(90deg, #c8e0ea 0%, #c4adef 100%);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.highlight:hover {
+  background: linear-gradient(90deg, #b3d9e7 0%, #a27ddc 100%);
+}
+
+.foto img {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.foto img:hover {
+  transform: scale(1.05);
 }
